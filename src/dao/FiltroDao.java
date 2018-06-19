@@ -16,7 +16,7 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import modelo.Filtro;
-import sun.util.logging.PlatformLogger;
+//import sun.util.logging.PlatformLogger;
 
 /**
  *

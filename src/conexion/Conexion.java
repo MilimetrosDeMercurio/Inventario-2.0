@@ -11,7 +11,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import sun.util.logging.PlatformLogger;
+//import sun.util.logging.PlatformLogger;
 
 /**
  *
@@ -46,9 +46,9 @@ public class Conexion {
 
     private void cargarCredenciales() {
         user = "root";
-        pass = "";
+        pass = "23183714";
         driver = "com.mysql.jdbc.Driver";
-        url = "jdbc:mysql://localhost/filtros";
+        url = "jdbc:mysql://localhost:3306/Inventario";
     }
 
     public Connection getCnx() {

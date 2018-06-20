@@ -46,9 +46,9 @@ public class Conexion {
 
     private void cargarCredenciales() {
         user = "root";
-        pass = "23183714";
+        pass = "";
         driver = "com.mysql.jdbc.Driver";
-        url = "jdbc:mysql://localhost:3306/Inventario";
+        url = "jdbc:mysql://localhost/marga";
     }
 
     public Connection getCnx() {
